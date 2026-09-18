@@ -1,0 +1,81 @@
+about:
+  name: Nicholas Rice
+  tagline: Aspiring AI Engineer
+  email: nicholas.rice.j@gmail.com
+  linkedin: nicholasrice1st
+  links:
+    - title: /in/nicholasrice1st
+      url: https://www.linkedin.com/in/nicholasrice1st
+      icon: fab fa-linkedin
+    - title: nickyrice04
+      url: https://github.com/nickyrice04
+      icon: fab fa-github
+  details: |
+    I started undergrad without a clear professional direction. Business came first, but it did not take
+    long to realize I wanted something more technical, so I switched to computer science. As I worked
+    through the core coursework, AI began reshaping the field and the path forward felt less certain than
+    ever. I added minors in mathematics and economics to understand both the mathematical backend of the
+    technology and the economic consequences of it.
+
+    Graduating a semester early, I chose to go deeper rather than wait for the picture to clear, which is
+    why I am pursuing a master's in Artificial Intelligence for Business at the University of Arizona. It
+    surfaced what I actually care about, which is helping businesses put AI systems to work to automate,
+    optimize, and strengthen how they operate day to day. My internship and the projects below are where
+    I have done exactly that, and I am looking for my next role doing more of it.
+
+skills:
+  - groupName: Programming
+    list:
+      - Python
+      - R
+      - SQL
+      - C++
+      - TypeScript
+      - JavaScript
+      - HTML/CSS
+
+  - groupName: AI & Machine Learning
+    list:
+      - PyTorch
+      - scikit-learn
+      - LLM APIs
+      - Local LLMs (llama.cpp, MLX)
+      - RAG
+      - AI agents
+
+  - groupName: Cloud & DevOps
+    list:
+      - DigitalOcean
+      - Docker
+      - Linux
+      - Git/GitHub
+      - FastAPI
+
+  - groupName: Data & Analytics
+    list:
+      - Pandas
+      - Tableau
+      - Power BI
+      - Excel
+      - Large data sets
+      - Data integration
+
+  - groupName: Applications
+    list:
+      - Microsoft Word
+      - PowerPoint
+
+certificates:
+  - title: "Microsoft Excel Associate"
+    subtitle: Microsoft
+
+activities:
+  - title: "Rider and Volunteer, Pelotonia Fundraiser for Cancer Research"
+    date: "April 2021 - Present"
+
+  - title: "Volunteer, St. Catharine's Parish"
+    subtitle: Columbus, OH
+    date: "January 2014 - Present"
+
+  - title: "Member, Luxury Management Study Abroad Program"
+    date: "January 2024 - May 2024"

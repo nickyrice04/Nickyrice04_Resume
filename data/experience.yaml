@@ -1,0 +1,10 @@
+- company: Atrium Apparel Company
+  roles:
+    - role: Business Intelligence Engineer Intern
+      date: May 2025 - August 2025
+      tools: Python, TypeScript, Power BI, Pandas, Excel, LLMs
+      details: |
+        - LLMs. Helped business teams adopt state-of-the-art AI systems in their daily work and pinpointed manual processes that AI could automate.
+        - Data Integration. Surfaced untapped alternative data, such as warehouse pick-location activity, and combined it into sources AI systems could use to uncover white-space growth opportunities.
+        - Python and Excel. Wrote scripts that pulled data from across the business into a single reporting hub, using Pandas to clean and reshape raw spreadsheet data into report-ready tables every team could rely on.
+        - Power BI and TypeScript. Built reports and web views that turned business data into clear visuals for non-technical teams and automated their delivery so everyone saw up-to-date numbers.

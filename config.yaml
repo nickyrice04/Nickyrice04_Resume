@@ -1,0 +1,124 @@
+# ==========================================
+# Resume A4 Theme Configuration
+# ==========================================
+# Complete configuration guide: https://github.com/mertbakir/resume-a4
+
+# Basic Hugo Configuration
+baseURL: /
+title: Nicholas Rice | Resume   # Title of the web page
+languageCode: en-us
+disableKinds: [taxonomy, term, page, section, RSS, sitemap, robotsTXT, '404']
+theme: resume-a4
+
+# ==========================================
+# DATA FILES
+# ==========================================
+# Resume content lives in YAML files in the /data folder:
+#   - features.yaml     -> Contact info, skills, certificates, activities
+#   - experience.yaml   -> Work experience
+#   - education.yaml    -> Degrees and coursework
+#   - projects.yaml     -> Project experience
+# publications.yaml was removed since there is nothing to list there.
+
+params:
+  # ========================================
+  # Global Settings
+  # ========================================
+  useFontAwesome: true          # Enable Font Awesome icons throughout the theme
+  externalLinkIcon: true        # Show icons for external links
+  favicon: true                 # Show favicon
+
+  # Custom CSS Files (loaded from assets/css/)
+  css:
+  - custom.scss                 # Density tweaks so the resume fits on one A4 page
+
+  # ========================================
+  # Header Configuration
+  # ========================================
+  header:
+    useFontAwesome: true        # Enable icons in header
+    contactOnSide: false        # true = contact info on right side (ignored if avatar is enabled)
+    avatar: "avatar.jpg"        # Profile picture from the /static folder
+    contact: true               # Show contact information in header
+    tagline: true               # Show professional tagline/summary
+    links: false                # Show social/professional links in header
+
+  # ========================================
+  # PAGE LAYOUT CONFIGURATION
+  # ========================================
+  pages:
+    # ========================================
+    # SINGLE PAGE RESUME
+    # ========================================
+    - header: true
+
+      # SIDE COLUMN SECTIONS
+      side:
+      - feature: education          # Education history from data/education.yaml
+      - feature: skills             # Technical skills from data/features.yaml
+        title: Skills
+        widget: word-list
+        style: compact
+      - feature: certificates
+        title: Certifications
+      - feature: activities
+        title: Activities
+
+      # MAIN CONTENT SECTIONS (LEFT COLUMN)
+      features:
+        - feature: about
+          title: About Me
+
+        - feature: experience       # Work experience from data/experience.yaml
+          title: Experience
+
+        - feature: projects         # Projects from data/projects.yaml
+          collection: projects
+          title: Project Experience
+
+  # ========================================
+  # SECTION-SPECIFIC SETTINGS
+  # ========================================
+
+  # Experience Section Settings
+  experience:
+    grouped: false              # false = chronological, true = group by company
+    tools:
+      show: true                # Show technology tags for each role
+      title: Technologies
+
+  # Education Section Settings
+  education:
+    useFontAwesome: true        # Show icons for education entries
+    externalLinkIcon: false     # Hide external link icons
+    location:
+      show: true                # Show location information
+    details:
+      show: true                # Show coursework details
+    namePrimary: false          # true = institution first, false = degree first
+
+  # General Item Title Settings
+  itemTitle:
+    useFontAwesome: false
+    externalLinkIcon: true
+
+  # ========================================
+  # FOOTER CONFIGURATION
+  # ========================================
+  footer:
+    show: true
+    credits: true
+    footnote: >-
+      You can print this resume in A4 size or save as PDF. | Updated at 2026-09-18.
+
+    # Footer Links
+    links:
+      - prefix: Connect with me on
+        title: LinkedIn
+        url: 'https://www.linkedin.com/in/nicholasrice1st'
+        icon: fab fa-linkedin
+
+      - prefix: See my code on
+        title: GitHub
+        url: 'https://github.com/nickyrice04'
+        icon: fab fa-github

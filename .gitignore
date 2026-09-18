@@ -1,0 +1,9 @@
+# App Platform rebuilds this on every deploy
+public/
+
+# Hugo build artifacts
+.hugo_build.lock
+resources/
+
+# macOS
+.DS_Store

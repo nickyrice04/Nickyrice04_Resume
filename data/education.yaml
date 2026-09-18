@@ -1,0 +1,18 @@
+- name: M.S., Artificial Intelligence for Business
+  university: University of Arizona
+  location: Tucson, AZ
+  date: Expected December 2026
+  gpa: 4.0 / 4.00
+  details: >
+    Coursework in Data Mining & Machine Learning, AI for Business Intelligence, Intro to Deep Learning,
+    Business Optimization, AI for Cybersecurity, Ethics of AI, Data Visualization, Generative AI for
+    Business, and Cloud Computing.
+
+- name: B.A., Computer Science with Minors in Mathematics and Economics
+  university: High Point University
+  location: High Point, NC
+  date: December 2025
+  gpa: 3.5 / 4.00
+  details: >
+    Coursework in Advanced Data Structures & Algorithm Analysis, Advanced Programming with Data
+    Structures, Database Systems (SQL), High Performance Computing, Computer Systems, and Data Security.

@@ -1,0 +1,18 @@
+projects:
+- title: "Local LLM Harness"
+  subtitle: "In active development"
+  date: "July 2026 - Present"
+  link: "https://github.com/nickyrice04/local-llm-harness"
+  details: |
+    - Building a private alternative to cloud AI assistants that runs large language models entirely on a personal laptop, keeping sensitive data on-device and eliminating subscription and API costs.
+    - Designed the workspace so a background AI agent can research, edit files, and run code on long tasks while the user keeps chatting on the same model.
+    - Built the safeguards needed to trust an autonomous agent, including approval before irreversible actions, sandboxed code execution, and a full activity log, in Python on llama.cpp and MLX, backed by 177 automated tests.
+
+- title: "Machine Learning for Predicting Online Shopper Intent"
+  subtitle: "Four-person team project"
+  date: "December 2025"
+  link: "https://github.com/nickyrice04/online-shoppers-purchase-intent"
+  details: |
+    - Built machine learning models that identify which e-commerce visitors are likely to purchase during a visit, letting marketing teams focus ad spend on high-intent shoppers rather than every visitor.
+    - Uncovered actionable purchase drivers, such as high-value page visits converting at 72.6% versus 9.5% and November converting 15x better than February, to guide campaign timing and site design.
+    - Compared four algorithms in R across 12,330 sessions and recommended an interpretable Decision Tree with 79.4% accuracy whose rules non-technical stakeholders can act on.
